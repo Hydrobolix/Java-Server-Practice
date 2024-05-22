@@ -24,7 +24,6 @@ public class LoginToken {
 		this.name = name;
 	}
 	
-	
 	public String getPassword() {
 		return this.password;
 	}
@@ -32,6 +31,4 @@ public class LoginToken {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	
 }
