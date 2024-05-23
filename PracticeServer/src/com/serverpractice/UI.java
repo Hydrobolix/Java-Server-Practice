@@ -32,7 +32,7 @@ public class UI {
 	public void menu() throws SQLException {
 		displayMenu();
 		
-		switch (userInput()) {
+		switch (Utilities.userInput(scan)) {
 		case "A":
 			RegistrationScreen rs = new RegistrationScreen();
 			rs.getUserInput(scan);
@@ -46,13 +46,6 @@ public class UI {
 		}
 		
 		disconnect();
-	}
-	
-	public String userInput() {
-		String choice = "";
-		choice = scan.nextLine();
-		
-		return choice;
 	}
 	
 	public void disconnect() throws SQLException {
