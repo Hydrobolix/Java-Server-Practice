@@ -22,7 +22,7 @@ public class LoginScreen {
 		Utilities.checkPassword(scan, password, 20, lt);
 	}
 	
-	public void checkUserInput() {
+	public void checkLoginToken() {
 		if (lt != null) {
 			System.out.println("Logging in. ");
 		} else {
