@@ -41,7 +41,7 @@ public class UI {
 		case "B":
 			LoginScreen ls = new LoginScreen();
 			ls.getUserInput(scan);
-			ls.checkUserInput();
+			ls.checkLoginToken();
 			ls.logIn(dbConn);
 		}
 		
