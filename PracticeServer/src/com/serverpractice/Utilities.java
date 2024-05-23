@@ -3,6 +3,13 @@ package com.serverpractice;
 import java.util.Scanner;
 
 public class Utilities {
+
+	public static String userInput(Scanner scan) {
+		String choice = "";
+		choice = scan.nextLine();
+		
+		return choice;
+	}
 	
 	/* User Details */
 	
